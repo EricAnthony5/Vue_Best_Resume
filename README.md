@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/salomonelli/best-resume-ever">
+  <a href="https://github.com/EricAnthony5/Vue_Best_Resume">
   <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
   <br>
   best-resume-ever
@@ -76,10 +76,10 @@ node -v
 1. Clone this repository.
 
 ```
-git clone https://github.com/salomonelli/best-resume-ever.git
+git clone https://github.com/EricAnthony5/Vue_Best_Resume.git
 ```
 
-2. Go to the cloned directory (e.g. `cd best-resume-ever`).
+2. Go to the cloned directory.
 
 3. Run `npm install`. This may take a few seconds.
 
