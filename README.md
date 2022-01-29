@@ -1,664 +1,129 @@
-Contribution: 2020-07-27 00:00
+<h1 align="center">
+  <br>
+  <a href="https://github.com/salomonelli/best-resume-ever">
+  <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
+  <br>
+  best-resume-ever
+  <br>
+</h1>
 
-Contribution: 2020-07-27 00:01
+<div align="center">
 
-Contribution: 2020-07-27 00:02
+[![Travis badge](https://travis-ci.org/salomonelli/best-resume-ever.svg?branch=master)](https://travis-ci.org/salomonelli/best-resume-ever)
 
-Contribution: 2020-07-27 00:03
+</div>
 
-Contribution: 2020-07-27 00:04
+<h4 align="center">
+  :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever!
+  <br><br>
+  Made with Vue and LESS.
+</h4>
 
-Contribution: 2020-07-27 00:05
+<br>
+<br>
 
-Contribution: 2020-07-27 00:06
+<p align="left">
+<p>Cool<br>
+<img src="src/assets/preview/resume-cool.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/preview/resume-cool-rtl2.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/preview/resume-cool-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+</p>
+<p>Creative<br>
+<img src="src/assets/preview/resume-creative.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+</p>
+<p>Green<br>
+<img src="src/assets/preview/resume-green.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+</p>
+<p>Purple<br>
+<img src="src/assets/preview/resume-purple.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+</p>
+<p>Side Bar<br>
+<img src="src/assets/preview/resume-side-bar.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/preview/resume-side-bar-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/preview/resume-side-bar-projects.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+</p>
+<p>Left Right<br>
+<img src="src/assets/preview/resume-left-right.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/preview/resume-left-right-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/preview/resume-left-right-projects.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+</p>
+<p>Material Dark<br>
+<img src="src/assets/preview/resume-material-dark.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/preview/resume-material-dark-projects.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+</p>
+<p>Oblique<br>
+<img src="src/assets/preview/resume-oblique.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/preview/resume-oblique-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<img src="src/assets/preview/resume-oblique-projects.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+</p>
+</p>
 
-Contribution: 2020-07-27 00:07
+<br>
+<br>
 
-Contribution: 2020-07-27 00:08
+## Prerequisite
 
-Contribution: 2020-07-27 00:09
+1. It is required to have Node.js with version 8.5.0 or higher. To see what version of Node.js is installed on your machine type the following command in the terminal:
 
-Contribution: 2020-07-28 00:00
+```
+node -v
+```
 
-Contribution: 2020-07-28 00:01
+2. If you do not have installed Node.js in your machine then go to [this link](https://nodejs.org/en/download/) in order to install node.
 
-Contribution: 2020-07-28 00:02
+## How to use
 
-Contribution: 2020-07-28 00:03
+1. Clone this repository.
 
-Contribution: 2020-07-28 00:04
+```
+git clone https://github.com/salomonelli/best-resume-ever.git
+```
 
-Contribution: 2020-07-28 00:05
+2. Go to the cloned directory (e.g. `cd best-resume-ever`).
 
-Contribution: 2020-07-28 00:06
+3. Run `npm install`. This may take a few seconds.
 
-Contribution: 2020-07-28 00:07
+4. Customize your resume in the `resume/` directory: edit your data `data.yml` and replace the default profile-picture `id.jpg` with your picture. Rename your picture as `id.jpg` and copy it in the `resume/` directory. During this step, you may find it easier to navigate with Finder or File Explorer to get to the files. This will allow you to edit files with your computers default text editor. 
 
-Contribution: 2020-08-05 00:00
+5. Preview resumes with `npm run dev`. The command will start a server instance and listen on port 8080.  Open (http://localhost:8080/home) in your browser. The page will show some resume previews. To see the preview of your resume, with your picture and data, click on one layout that you like and the resume will be opened in the same window.
 
-Contribution: 2020-08-05 00:01
+![Resume previews](/readme-images/resumePreviews.png)
 
-Contribution: 2020-08-05 00:02
 
-Contribution: 2020-08-05 00:03
+6. Export your resume as pdf by running the command `npm run export`. In order to avoid errors due to the concurrency of two  `npm run` commands, stop the execution of the previus `npm run dev` and then type the export command.
 
-Contribution: 2020-08-05 00:04
+All resumes will be exported to the `pdf/` folder.
 
-Contribution: 2020-08-05 00:05
+<br>
 
-Contribution: 2020-08-05 00:06
+## Creating and Updating Templates
 
-Contribution: 2020-08-05 00:07
+Please read the <a href="DEVELOPER.md">developer docs</a> on how to create or update templates.
 
-Contribution: 2020-08-05 00:08
+<br>
 
-Contribution: 2020-08-05 00:09
+## Contribute
 
-Contribution: 2020-08-05 00:10
+Feel free to add your own templates, language supports, fix bugs or improve the docs. Any kind of help is appreciated! If you make any kind of changes to an existing template, please commit them as new templates.
 
-Contribution: 2020-08-06 00:00
+<br>
 
-Contribution: 2020-08-06 00:01
+## Credits
 
-Contribution: 2020-08-06 00:02
+This project uses several open source packages:
 
-Contribution: 2020-08-06 00:03
+- <a href="https://github.com/vuejs/vue" target="_blank">Vue</a>
+- <a href="https://github.com/GoogleChrome/puppeteer" target="_blank">Puppeteer</a>
+- <a href="https://github.com/less/less.js" target="_blank">LESS</a>
 
-Contribution: 2020-08-06 00:04
+<br>
 
-Contribution: 2020-08-06 00:05
+---
 
-Contribution: 2020-08-06 00:06
+> [sarasteiert.com](https://www.sarasteiert.com) &nbsp;&middot;&nbsp;
+> GitHub [@salomonelli](https://github.com/salomonelli) &nbsp;&middot;&nbsp;
+> Twitter [@salomonelli](https://twitter.com/salomonelli)
 
-Contribution: 2020-08-06 00:07
+## License
 
-Contribution: 2020-08-06 00:08
-
-Contribution: 2020-08-07 00:00
-
-Contribution: 2020-08-07 00:01
-
-Contribution: 2020-08-07 00:02
-
-Contribution: 2020-08-07 00:03
-
-Contribution: 2020-08-07 00:04
-
-Contribution: 2020-08-07 00:05
-
-Contribution: 2020-08-07 00:06
-
-Contribution: 2020-08-07 00:07
-
-Contribution: 2020-08-07 00:08
-
-Contribution: 2020-08-07 00:09
-
-Contribution: 2020-08-07 00:10
-
-Contribution: 2020-08-10 00:00
-
-Contribution: 2020-08-12 00:00
-
-Contribution: 2020-08-12 00:01
-
-Contribution: 2020-08-12 00:02
-
-Contribution: 2020-08-12 00:03
-
-Contribution: 2020-08-12 00:04
-
-Contribution: 2020-08-12 00:05
-
-Contribution: 2020-08-12 00:06
-
-Contribution: 2020-08-12 00:07
-
-Contribution: 2020-08-12 00:08
-
-Contribution: 2020-08-12 00:09
-
-Contribution: 2020-08-12 00:10
-
-Contribution: 2020-08-12 00:11
-
-Contribution: 2020-08-12 00:12
-
-Contribution: 2020-08-12 00:13
-
-Contribution: 2020-08-12 00:14
-
-Contribution: 2020-08-14 00:00
-
-Contribution: 2020-08-14 00:01
-
-Contribution: 2020-08-14 00:02
-
-Contribution: 2020-08-14 00:03
-
-Contribution: 2020-08-14 00:04
-
-Contribution: 2020-08-14 00:05
-
-Contribution: 2020-08-14 00:06
-
-Contribution: 2020-08-14 00:07
-
-Contribution: 2020-08-14 00:08
-
-Contribution: 2020-08-14 00:09
-
-Contribution: 2020-08-14 00:10
-
-Contribution: 2020-08-20 00:00
-
-Contribution: 2020-08-20 00:01
-
-Contribution: 2020-08-21 00:00
-
-Contribution: 2020-08-21 00:01
-
-Contribution: 2020-08-21 00:02
-
-Contribution: 2020-08-21 00:03
-
-Contribution: 2020-08-21 00:04
-
-Contribution: 2020-08-21 00:05
-
-Contribution: 2020-08-21 00:06
-
-Contribution: 2020-08-21 00:07
-
-Contribution: 2020-08-21 00:08
-
-Contribution: 2020-08-21 00:09
-
-Contribution: 2020-08-21 00:10
-
-Contribution: 2020-08-21 00:11
-
-Contribution: 2020-08-21 00:12
-
-Contribution: 2020-08-21 00:13
-
-Contribution: 2020-08-21 00:14
-
-Contribution: 2020-08-27 00:00
-
-Contribution: 2020-08-27 00:01
-
-Contribution: 2020-08-27 00:02
-
-Contribution: 2020-08-27 00:03
-
-Contribution: 2020-08-27 00:04
-
-Contribution: 2020-08-27 00:05
-
-Contribution: 2020-08-27 00:06
-
-Contribution: 2020-08-27 00:07
-
-Contribution: 2020-08-27 00:08
-
-Contribution: 2020-09-01 00:00
-
-Contribution: 2020-09-01 00:01
-
-Contribution: 2020-09-01 00:02
-
-Contribution: 2020-09-01 00:03
-
-Contribution: 2020-09-01 00:04
-
-Contribution: 2020-09-01 00:05
-
-Contribution: 2020-09-01 00:06
-
-Contribution: 2020-09-01 00:07
-
-Contribution: 2020-09-01 00:08
-
-Contribution: 2020-09-01 00:09
-
-Contribution: 2020-09-01 00:10
-
-Contribution: 2020-09-02 00:00
-
-Contribution: 2020-09-02 00:01
-
-Contribution: 2020-09-02 00:02
-
-Contribution: 2020-09-02 00:03
-
-Contribution: 2020-09-02 00:04
-
-Contribution: 2020-09-02 00:05
-
-Contribution: 2020-09-03 00:00
-
-Contribution: 2020-09-03 00:01
-
-Contribution: 2020-09-03 00:02
-
-Contribution: 2020-09-03 00:03
-
-Contribution: 2020-09-03 00:04
-
-Contribution: 2020-09-03 00:05
-
-Contribution: 2020-09-03 00:06
-
-Contribution: 2020-09-03 00:07
-
-Contribution: 2020-09-03 00:08
-
-Contribution: 2020-09-03 00:09
-
-Contribution: 2020-09-03 00:10
-
-Contribution: 2020-09-03 00:11
-
-Contribution: 2020-09-03 00:12
-
-Contribution: 2020-09-03 00:13
-
-Contribution: 2020-09-03 00:14
-
-Contribution: 2020-09-04 00:00
-
-Contribution: 2020-09-04 00:01
-
-Contribution: 2020-09-04 00:02
-
-Contribution: 2020-09-04 00:03
-
-Contribution: 2020-09-04 00:04
-
-Contribution: 2020-09-04 00:05
-
-Contribution: 2020-09-04 00:06
-
-Contribution: 2020-09-04 00:07
-
-Contribution: 2020-09-07 00:00
-
-Contribution: 2020-09-07 00:01
-
-Contribution: 2020-09-07 00:02
-
-Contribution: 2020-09-07 00:03
-
-Contribution: 2020-09-07 00:04
-
-Contribution: 2020-09-07 00:05
-
-Contribution: 2020-09-07 00:06
-
-Contribution: 2020-09-07 00:07
-
-Contribution: 2020-09-07 00:08
-
-Contribution: 2020-09-07 00:09
-
-Contribution: 2020-09-07 00:10
-
-Contribution: 2020-09-07 00:11
-
-Contribution: 2020-09-07 00:12
-
-Contribution: 2020-09-08 00:00
-
-Contribution: 2020-09-08 00:01
-
-Contribution: 2020-09-08 00:02
-
-Contribution: 2020-09-08 00:03
-
-Contribution: 2020-09-08 00:04
-
-Contribution: 2020-09-10 00:00
-
-Contribution: 2020-09-11 00:00
-
-Contribution: 2020-09-11 00:01
-
-Contribution: 2020-09-11 00:02
-
-Contribution: 2020-09-11 00:03
-
-Contribution: 2020-09-11 00:04
-
-Contribution: 2020-09-11 00:05
-
-Contribution: 2020-09-18 00:00
-
-Contribution: 2020-09-18 00:01
-
-Contribution: 2020-09-18 00:02
-
-Contribution: 2020-09-18 00:03
-
-Contribution: 2020-09-18 00:04
-
-Contribution: 2020-09-18 00:05
-
-Contribution: 2020-09-18 00:06
-
-Contribution: 2020-09-21 00:00
-
-Contribution: 2020-09-21 00:01
-
-Contribution: 2020-09-21 00:02
-
-Contribution: 2020-09-21 00:03
-
-Contribution: 2020-09-22 00:00
-
-Contribution: 2020-09-22 00:01
-
-Contribution: 2020-09-22 00:02
-
-Contribution: 2020-09-22 00:03
-
-Contribution: 2020-09-22 00:04
-
-Contribution: 2020-09-22 00:05
-
-Contribution: 2020-09-22 00:06
-
-Contribution: 2020-09-22 00:07
-
-Contribution: 2020-09-22 00:08
-
-Contribution: 2020-09-24 00:00
-
-Contribution: 2020-09-24 00:01
-
-Contribution: 2020-09-24 00:02
-
-Contribution: 2020-09-24 00:03
-
-Contribution: 2020-09-24 00:04
-
-Contribution: 2020-09-24 00:05
-
-Contribution: 2020-09-24 00:06
-
-Contribution: 2020-09-24 00:07
-
-Contribution: 2020-09-24 00:08
-
-Contribution: 2020-09-24 00:09
-
-Contribution: 2020-09-24 00:10
-
-Contribution: 2020-09-24 00:11
-
-Contribution: 2020-09-24 00:12
-
-Contribution: 2020-09-24 00:13
-
-Contribution: 2020-09-30 00:00
-
-Contribution: 2020-09-30 00:01
-
-Contribution: 2020-09-30 00:02
-
-Contribution: 2020-09-30 00:03
-
-Contribution: 2020-09-30 00:04
-
-Contribution: 2020-09-30 00:05
-
-Contribution: 2020-09-30 00:06
-
-Contribution: 2020-09-30 00:07
-
-Contribution: 2020-10-01 00:00
-
-Contribution: 2020-10-01 00:01
-
-Contribution: 2020-10-01 00:02
-
-Contribution: 2020-10-01 00:03
-
-Contribution: 2020-10-01 00:04
-
-Contribution: 2020-10-01 00:05
-
-Contribution: 2020-10-01 00:06
-
-Contribution: 2020-10-01 00:07
-
-Contribution: 2020-10-01 00:08
-
-Contribution: 2020-10-01 00:09
-
-Contribution: 2020-10-01 00:10
-
-Contribution: 2020-10-01 00:11
-
-Contribution: 2020-10-01 00:12
-
-Contribution: 2020-10-01 00:13
-
-Contribution: 2020-10-02 00:00
-
-Contribution: 2020-10-02 00:01
-
-Contribution: 2020-10-02 00:02
-
-Contribution: 2020-10-02 00:03
-
-Contribution: 2020-10-02 00:04
-
-Contribution: 2020-10-02 00:05
-
-Contribution: 2020-10-05 00:00
-
-Contribution: 2020-10-05 00:01
-
-Contribution: 2020-10-05 00:02
-
-Contribution: 2020-10-05 00:03
-
-Contribution: 2020-10-05 00:04
-
-Contribution: 2020-10-05 00:05
-
-Contribution: 2020-10-09 00:00
-
-Contribution: 2020-10-09 00:01
-
-Contribution: 2020-10-09 00:02
-
-Contribution: 2020-10-09 00:03
-
-Contribution: 2020-10-09 00:04
-
-Contribution: 2020-10-09 00:05
-
-Contribution: 2020-10-09 00:06
-
-Contribution: 2020-10-09 00:07
-
-Contribution: 2020-10-12 00:00
-
-Contribution: 2020-10-12 00:01
-
-Contribution: 2020-10-12 00:02
-
-Contribution: 2020-10-12 00:03
-
-Contribution: 2020-10-12 00:04
-
-Contribution: 2020-10-12 00:05
-
-Contribution: 2020-10-12 00:06
-
-Contribution: 2020-10-12 00:07
-
-Contribution: 2020-10-12 00:08
-
-Contribution: 2020-10-12 00:09
-
-Contribution: 2020-10-12 00:10
-
-Contribution: 2020-10-12 00:11
-
-Contribution: 2020-10-12 00:12
-
-Contribution: 2020-10-13 00:00
-
-Contribution: 2020-10-13 00:01
-
-Contribution: 2020-10-13 00:02
-
-Contribution: 2020-10-13 00:03
-
-Contribution: 2020-10-13 00:04
-
-Contribution: 2020-10-13 00:05
-
-Contribution: 2020-10-13 00:06
-
-Contribution: 2020-10-13 00:07
-
-Contribution: 2020-10-13 00:08
-
-Contribution: 2020-10-13 00:09
-
-Contribution: 2020-10-13 00:10
-
-Contribution: 2020-10-13 00:11
-
-Contribution: 2020-10-13 00:12
-
-Contribution: 2020-10-22 00:00
-
-Contribution: 2020-10-22 00:01
-
-Contribution: 2020-10-22 00:02
-
-Contribution: 2020-10-22 00:03
-
-Contribution: 2020-10-22 00:04
-
-Contribution: 2020-10-22 00:05
-
-Contribution: 2020-10-22 00:06
-
-Contribution: 2020-10-22 00:07
-
-Contribution: 2020-10-22 00:08
-
-Contribution: 2020-10-22 00:09
-
-Contribution: 2020-10-22 00:10
-
-Contribution: 2020-10-23 00:00
-
-Contribution: 2020-10-23 00:01
-
-Contribution: 2020-10-23 00:02
-
-Contribution: 2020-10-23 00:03
-
-Contribution: 2020-10-23 00:04
-
-Contribution: 2020-10-23 00:05
-
-Contribution: 2020-10-23 00:06
-
-Contribution: 2020-10-23 00:07
-
-Contribution: 2020-10-23 00:08
-
-Contribution: 2020-10-26 00:00
-
-Contribution: 2020-10-26 00:01
-
-Contribution: 2020-10-26 00:02
-
-Contribution: 2020-10-26 00:03
-
-Contribution: 2020-10-26 00:04
-
-Contribution: 2020-10-26 00:05
-
-Contribution: 2020-10-26 00:06
-
-Contribution: 2020-10-26 00:07
-
-Contribution: 2020-10-26 00:08
-
-Contribution: 2020-10-26 00:09
-
-Contribution: 2020-10-26 00:10
-
-Contribution: 2020-10-26 00:11
-
-Contribution: 2020-10-26 00:12
-
-Contribution: 2020-10-26 00:13
-
-Contribution: 2020-10-26 00:14
-
-Contribution: 2020-10-30 00:00
-
-Contribution: 2020-10-30 00:01
-
-Contribution: 2020-11-05 00:00
-
-Contribution: 2020-11-05 00:01
-
-Contribution: 2020-11-05 00:02
-
-Contribution: 2020-11-05 00:03
-
-Contribution: 2020-11-05 00:04
-
-Contribution: 2020-11-05 00:05
-
-Contribution: 2020-11-05 00:06
-
-Contribution: 2020-11-05 00:07
-
-Contribution: 2020-11-05 00:08
-
-Contribution: 2020-11-05 00:09
-
-Contribution: 2020-11-05 00:10
-
-Contribution: 2020-11-05 00:11
-
-Contribution: 2020-11-05 00:12
-
-Contribution: 2020-11-06 00:00
-
-Contribution: 2020-11-06 00:01
-
-Contribution: 2020-11-06 00:02
-
-Contribution: 2020-11-06 00:03
-
-Contribution: 2020-11-06 00:04
-
-Contribution: 2020-11-09 00:00
-
-Contribution: 2020-11-09 00:01
-
-Contribution: 2020-11-09 00:02
-
-Contribution: 2020-11-09 00:03
-
-Contribution: 2020-11-09 00:04
-
-Contribution: 2020-11-09 00:05
-
-Contribution: 2020-11-09 00:06
-
-Contribution: 2020-11-09 00:07
-
+[MIT](https://github.com/salomonelli/best-resume-ever/blob/master/LICENCE.md)
